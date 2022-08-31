@@ -153,3 +153,46 @@ a{
     justify-content: space-around;
     margin-top: 50px;
 }
+
+@media screen and (max-width:700px) {
+    .section1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin-top: 100px;
+    }
+    .section2{
+        width: 80%;
+    }
+    .section3{
+        width: 50%;
+        margin-top: 100px;
+    }
+    .section5{
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        margin-left: 250px;
+    }
+    .section6>a{
+        border: 1px solid red;
+        padding: 10px 20px;
+        color: red;
+    }
+    .section11{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 250px;
+    }
+    .section13{
+        
+        margin: 50px 0px;
+    }
+    .top{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+}
